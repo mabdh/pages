@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang=en>
+<head>
+    <!-- so meta -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="HandheldFriendly" content="True">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <meta name="description" content="Satu bulan yang lalu saya transit beberapa jam di bandara Dubai International Airport (DXB). Secara default, bandara ini hanya menyediakan internet gratis selama 60 menit. Cara mendapatkannya adalah d">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Eksploit akses internet di Dubai International Airport (DXB)">
+<meta property="og:url" content="http://mabdh.github.io/pages/2015/09/16/2015-09-16-eksploit-akses-internet-di-dubai-international-airport-dxb/index.html">
+<meta property="og:site_name" content="mabdh pages">
+<meta property="og:description" content="Satu bulan yang lalu saya transit beberapa jam di bandara Dubai International Airport (DXB). Secara default, bandara ini hanya menyediakan internet gratis selama 60 menit. Cara mendapatkannya adalah d">
+<meta property="og:locale" content="en_US">
+<meta property="og:image" content="http://mabdh.github.io/pages/2015/09/16/2015-09-16-eksploit-akses-internet-di-dubai-international-airport-dxb/eksploit-int-dub.png">
+<meta property="og:image" content="http://mabdh.github.io/pages/2015/09/16/2015-09-16-eksploit-akses-internet-di-dubai-international-airport-dxb/eksploit-int-dub-1.png">
+<meta property="og:image" content="http://mabdh.github.io/pages/2015/09/16/2015-09-16-eksploit-akses-internet-di-dubai-international-airport-dxb/eksploit-int-dub-2.png">
+<meta property="og:image" content="http://mabdh.github.io/pages/2015/09/16/2015-09-16-eksploit-akses-internet-di-dubai-international-airport-dxb/eksploit-int-dub-3.png">
+<meta property="og:image" content="http://mabdh.github.io/pages/2015/09/16/2015-09-16-eksploit-akses-internet-di-dubai-international-airport-dxb/eksploit-int-dub-4.png">
+<meta property="og:image" content="http://mabdh.github.io/pages/2015/09/16/2015-09-16-eksploit-akses-internet-di-dubai-international-airport-dxb/eksploit-int-dub-5.png">
+<meta property="article:published_time" content="2015-09-16T10:35:59.000Z">
+<meta property="article:modified_time" content="2019-12-25T15:52:51.436Z">
+<meta property="article:author" content="mabdh">
+<meta property="article:tag" content="exploit">
+<meta property="article:tag" content="wifi">
+<meta property="article:tag" content="internet access">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="http://mabdh.github.io/pages/2015/09/16/2015-09-16-eksploit-akses-internet-di-dubai-international-airport-dxb/eksploit-int-dub.png">
+    
+    
+        
+          
+              <link rel="shortcut icon" href="/pages/images/favicon.ico">
+          
+        
+        
+          
+            <link rel="icon" type="image/png" href="/pages/images/logo.png" sizes="192x192">
+          
+        
+        
+          
+            <link rel="apple-touch-icon" sizes="180x180" href="/pages/images/logo.png">
+          
+        
+    
+    <!-- title -->
+    <title>Eksploit akses internet di Dubai International Airport (DXB)</title>
+    <!-- styles -->
+    
+<link rel="stylesheet" href="/pages/css/style.css">
+
+    <!-- persian styles -->
+    
+      
+<link rel="stylesheet" href="/pages/css/rtl.css">
+
+    
+    <!-- rss -->
+    
+    
+<meta name="generator" content="Hexo 4.2.0"></head>
+
+<body class="max-width mx-auto px3 ltr">
+    
+      <div id="header-post">
+  <a id="menu-icon" href="#"><i class="fas fa-bars fa-lg"></i></a>
+  <a id="menu-icon-tablet" href="#"><i class="fas fa-bars fa-lg"></i></a>
+  <a id="top-icon-tablet" href="#" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');" style="display:none;"><i class="fas fa-chevron-up fa-lg"></i></a>
+  <span id="menu">
+    <span id="nav">
+      <ul>
+         
+          <li><a href="/pages/">Home</a></li>
+         
+          <li><a href="http://mabdh.github.io/about">About</a></li>
+         
+          <li><a href="/pages/categories/Writings/">Writing</a></li>
+         
+          <li><a href="/pages/categories/Projects/">Projects</a></li>
+        
+      </ul>
+    </span>
+    <br/>
+    <span id="actions">
+      <ul>
+        
+        <li><a class="icon" href="/pages/2015/11/04/mot/"><i class="fas fa-chevron-left" aria-hidden="true" onmouseover="$('#i-prev').toggle();" onmouseout="$('#i-prev').toggle();"></i></a></li>
+        
+        
+        <li><a class="icon" href="/pages/2015/04/29/mainski/"><i class="fas fa-chevron-right" aria-hidden="true" onmouseover="$('#i-next').toggle();" onmouseout="$('#i-next').toggle();"></i></a></li>
+        
+        <li><a class="icon" href="#" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');"><i class="fas fa-chevron-up" aria-hidden="true" onmouseover="$('#i-top').toggle();" onmouseout="$('#i-top').toggle();"></i></a></li>
+        <li><a class="icon" href="#"><i class="fas fa-share-alt" aria-hidden="true" onmouseover="$('#i-share').toggle();" onmouseout="$('#i-share').toggle();" onclick="$('#share').toggle();return false;"></i></a></li>
+      </ul>
+      <span id="i-prev" class="info" style="display:none;">Previous post</span>
+      <span id="i-next" class="info" style="display:none;">Next post</span>
+      <span id="i-top" class="info" style="display:none;">Back to top</span>
+      <span id="i-share" class="info" style="display:none;">Share post</span>
+    </span>
+    <br/>
+    <div id="share" style="display: none">
+      <ul>
+  <li><a class="icon" href="http://www.facebook.com/sharer.php?u=http://mabdh.github.io/pages/2015/09/16/2015-09-16-eksploit-akses-internet-di-dubai-international-airport-dxb/" target="_blank" rel="noopener"><i class="fab fa-facebook " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="https://twitter.com/share?url=http://mabdh.github.io/pages/2015/09/16/2015-09-16-eksploit-akses-internet-di-dubai-international-airport-dxb/&text=Eksploit akses internet di Dubai International Airport (DXB)" target="_blank" rel="noopener"><i class="fab fa-twitter " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="http://www.linkedin.com/shareArticle?url=http://mabdh.github.io/pages/2015/09/16/2015-09-16-eksploit-akses-internet-di-dubai-international-airport-dxb/&title=Eksploit akses internet di Dubai International Airport (DXB)" target="_blank" rel="noopener"><i class="fab fa-linkedin " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="https://pinterest.com/pin/create/bookmarklet/?url=http://mabdh.github.io/pages/2015/09/16/2015-09-16-eksploit-akses-internet-di-dubai-international-airport-dxb/&is_video=false&description=Eksploit akses internet di Dubai International Airport (DXB)" target="_blank" rel="noopener"><i class="fab fa-pinterest " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="mailto:?subject=Eksploit akses internet di Dubai International Airport (DXB)&body=Check out this article: http://mabdh.github.io/pages/2015/09/16/2015-09-16-eksploit-akses-internet-di-dubai-international-airport-dxb/"><i class="fas fa-envelope " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="https://getpocket.com/save?url=http://mabdh.github.io/pages/2015/09/16/2015-09-16-eksploit-akses-internet-di-dubai-international-airport-dxb/&title=Eksploit akses internet di Dubai International Airport (DXB)" target="_blank" rel="noopener"><i class="fab fa-get-pocket " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="http://reddit.com/submit?url=http://mabdh.github.io/pages/2015/09/16/2015-09-16-eksploit-akses-internet-di-dubai-international-airport-dxb/&title=Eksploit akses internet di Dubai International Airport (DXB)" target="_blank" rel="noopener"><i class="fab fa-reddit " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="http://www.stumbleupon.com/submit?url=http://mabdh.github.io/pages/2015/09/16/2015-09-16-eksploit-akses-internet-di-dubai-international-airport-dxb/&title=Eksploit akses internet di Dubai International Airport (DXB)" target="_blank" rel="noopener"><i class="fab fa-stumbleupon " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="http://digg.com/submit?url=http://mabdh.github.io/pages/2015/09/16/2015-09-16-eksploit-akses-internet-di-dubai-international-airport-dxb/&title=Eksploit akses internet di Dubai International Airport (DXB)" target="_blank" rel="noopener"><i class="fab fa-digg " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="http://www.tumblr.com/share/link?url=http://mabdh.github.io/pages/2015/09/16/2015-09-16-eksploit-akses-internet-di-dubai-international-airport-dxb/&name=Eksploit akses internet di Dubai International Airport (DXB)&description=" target="_blank" rel="noopener"><i class="fab fa-tumblr " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="https://news.ycombinator.com/submitlink?u=http://mabdh.github.io/pages/2015/09/16/2015-09-16-eksploit-akses-internet-di-dubai-international-airport-dxb/&t=Eksploit akses internet di Dubai International Airport (DXB)" target="_blank" rel="noopener"><i class="fab fa-hacker-news " aria-hidden="true"></i></a></li>
+</ul>
+
+    </div>
+    <div id="toc">
+      <ol class="toc"><li class="toc-item toc-level-3"><a class="toc-link" href="#Gratis-Wi-Fi-sehari-penuh"><span class="toc-number">1.</span> <span class="toc-text">Gratis Wi-Fi sehari penuh</span></a></li></ol>
+    </div>
+  </span>
+</div>
+
+    
+    <div class="content index py4">
+        
+        <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+  <header>
+    
+    <h1 class="posttitle" itemprop="name headline">
+        Eksploit akses internet di Dubai International Airport (DXB)
+    </h1>
+
+
+
+    <div class="meta">
+      <span class="author" itemprop="author" itemscope itemtype="http://schema.org/Person">
+        <span itemprop="name">mabdh pages</span>
+      </span>
+      
+    <div class="postdate">
+      
+        <time datetime="2015-09-16T10:35:59.000Z" itemprop="datePublished">2015-09-16</time>
+        
+      
+    </div>
+
+
+      
+    <div class="article-category">
+        <i class="fas fa-archive"></i>
+        <a class="category-link" href="/pages/categories/Writings/">Writings</a>
+    </div>
+
+
+      
+    <div class="article-tag">
+        <i class="fas fa-tag"></i>
+        <a class="tag-link" href="/pages/tags/exploit/" rel="tag">exploit</a>, <a class="tag-link" href="/pages/tags/internet-access/" rel="tag">internet access</a>, <a class="tag-link" href="/pages/tags/wifi/" rel="tag">wifi</a>
+    </div>
+
+
+    </div>
+  </header>
+  
+
+  <div class="content" itemprop="articleBody">
+    <p>Satu bulan yang lalu saya transit beberapa jam di bandara Dubai International Airport (DXB). Secara default, bandara ini hanya menyediakan internet gratis selama 60 menit. Cara mendapatkannya adalah dengan menggunakan Wi-Fi lalu kemudian buka browser. Untuk beberapa smartphone (browser), sebuah portal log-in akan terbuka secara otomatis. Akan tetapi ada beberapa smartphone (browser) yang tidak membuka portal log-in secara otomatis.</p>
+<p>Ketika browser terbuka, halaman segera ter-redirect ke <a href="http://portal.boingohotspot.net/en/dxb" target="_blank" rel="noopener">http://portal.boingohotspot.net/en/dxb</a> dan terdapat tulisan Welcome to Dubai International Airport (Get Online Now). Contoh gambarnya tidak ada karena saya lupa melakukan screenshoot. Jika kita pilih (Get Online Now), maka akan terdapat dua pilihan yang muncul, Complimentary Wi-Fi 60 minutes dan Boingo 1 Hour. Pilihan pertama merupakan akses Wi-Fi gratis selama 60 menit dan hanya dapat dilakukan sekali saja. Pilihan kedua merupakan akses Wi-Fi berbayar yang dapat digunakan jika kita membayar menggunakan kartu kredit.</p>
+<p>Cara yang digunakan sangat newbie-friendly tanpa harus mencari backdoor, bruteforce, menggunakan KaliLinux untuk melakukan pen-test dan lain-lainnya seperti yang dilakukan Elliot Alderson di serial Mr.Robot. Akan tetapi caranya sangat mudah yaitu dengan mengubah URL.</p>
+<p>Di kasus ini kita ingin mendapatkan akses lebih dari server hotspot boingo untuk bisa berinternet. Kalau ada cara yang mudah, untuk apa susah-susah.</p>
+<p>Berikut langkah-langkah untuk berinternet dengan santai di bandara Dubai.</p>
+<ol>
+<li>Gunakan Wi-Fi gratis secara normal selama 60 menit untuk menghormati pihak bandara yang telah menyediakan Wi-Fi gratis (hanya) selama 60 menit.</li>
+<li>Jika masih kurang lakukan cara berikut.</li>
+<li>Langsung tembak URL <a href="http://portal.boingohotspot.net" target="_blank" rel="noopener">http://portal.boingohotspot.net</a> (tanpa /en/dxb). Kemudian halaman berikut akan terbuka.</li>
+</ol>
+<p><img src="eksploit-int-dub.png" alt="eksploit int dub"></p>
+<p>Di halaman tersebut terdapat combo-box “Choose venue”. Di dalamnya terdapat daftar bandara-bandara yang akses internetnya disediakan oleh Boingo.</p>
+<p><img src="eksploit-int-dub-1.png" alt="eksploit int dub 1"></p>
+<p> Lalu pilih salah satu bandara yang diinginkan. Kebanyakan dari bandara-bandara tersebut menyediakan Wi-Fi gratis dengan durasi yang berbeda-beda. Contohnya adalah bandara AUS-Austin Bergstrom International Airport yang memiliki durasi 90 menit dan DTW-Detroit Metropolitan Wayne County Airport memiliki durasi 24 jam.</p>
+<p><img src="eksploit-int-dub-2.png" alt="eksploit int dub 2"></p>
+<p><img src="eksploit-int-dub-3.png" alt="eksploit int dub 3"></p>
+<p>Gratis internet 90 menit</p>
+<p><img src="eksploit-int-dub-4.png" alt="eksploit int dub 4"></p>
+<p><img src="eksploit-int-dub-5.png" alt="eksploit int dub 5"></p>
+<h3 id="Gratis-Wi-Fi-sehari-penuh"><a href="#Gratis-Wi-Fi-sehari-penuh" class="headerlink" title="Gratis Wi-Fi sehari penuh"></a>Gratis Wi-Fi sehari penuh</h3><p>Portal Wi-Fi Boingo ini sepertinya mencatat MAC address setiap device yang kita gunakan untuk berinternet sehingga kita hanya dapat menggunakan satu device sekali saja untuk berinternet. Trik ini juga kemungkinan besar dapat digunakan pada bandara-bandara yang terdapat di list sebelumnya.</p>
+<p>Yak jadi begitu. Caranya mudah cukup dengan hanya mengganti URL.</p>
+
+  </div>
+</article>
+
+    <div class="blog-post-comments">
+        <div id="disqus_thread">
+            <noscript>Please enable JavaScript to view the comments.</noscript>
+        </div>
+    </div>
+
+
+
+        
+          <div id="footer-post-container">
+  <div id="footer-post">
+
+    <div id="nav-footer" style="display: none">
+      <ul>
+         
+          <li><a href="/pages/">Home</a></li>
+         
+          <li><a href="http://mabdh.github.io/about">About</a></li>
+         
+          <li><a href="/pages/categories/Writings/">Writing</a></li>
+         
+          <li><a href="/pages/categories/Projects/">Projects</a></li>
+        
+      </ul>
+    </div>
+
+    <div id="toc-footer" style="display: none">
+      <ol class="toc"><li class="toc-item toc-level-3"><a class="toc-link" href="#Gratis-Wi-Fi-sehari-penuh"><span class="toc-number">1.</span> <span class="toc-text">Gratis Wi-Fi sehari penuh</span></a></li></ol>
+    </div>
+
+    <div id="share-footer" style="display: none">
+      <ul>
+  <li><a class="icon" href="http://www.facebook.com/sharer.php?u=http://mabdh.github.io/pages/2015/09/16/2015-09-16-eksploit-akses-internet-di-dubai-international-airport-dxb/" target="_blank" rel="noopener"><i class="fab fa-facebook fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="https://twitter.com/share?url=http://mabdh.github.io/pages/2015/09/16/2015-09-16-eksploit-akses-internet-di-dubai-international-airport-dxb/&text=Eksploit akses internet di Dubai International Airport (DXB)" target="_blank" rel="noopener"><i class="fab fa-twitter fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="http://www.linkedin.com/shareArticle?url=http://mabdh.github.io/pages/2015/09/16/2015-09-16-eksploit-akses-internet-di-dubai-international-airport-dxb/&title=Eksploit akses internet di Dubai International Airport (DXB)" target="_blank" rel="noopener"><i class="fab fa-linkedin fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="https://pinterest.com/pin/create/bookmarklet/?url=http://mabdh.github.io/pages/2015/09/16/2015-09-16-eksploit-akses-internet-di-dubai-international-airport-dxb/&is_video=false&description=Eksploit akses internet di Dubai International Airport (DXB)" target="_blank" rel="noopener"><i class="fab fa-pinterest fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="mailto:?subject=Eksploit akses internet di Dubai International Airport (DXB)&body=Check out this article: http://mabdh.github.io/pages/2015/09/16/2015-09-16-eksploit-akses-internet-di-dubai-international-airport-dxb/"><i class="fas fa-envelope fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="https://getpocket.com/save?url=http://mabdh.github.io/pages/2015/09/16/2015-09-16-eksploit-akses-internet-di-dubai-international-airport-dxb/&title=Eksploit akses internet di Dubai International Airport (DXB)" target="_blank" rel="noopener"><i class="fab fa-get-pocket fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="http://reddit.com/submit?url=http://mabdh.github.io/pages/2015/09/16/2015-09-16-eksploit-akses-internet-di-dubai-international-airport-dxb/&title=Eksploit akses internet di Dubai International Airport (DXB)" target="_blank" rel="noopener"><i class="fab fa-reddit fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="http://www.stumbleupon.com/submit?url=http://mabdh.github.io/pages/2015/09/16/2015-09-16-eksploit-akses-internet-di-dubai-international-airport-dxb/&title=Eksploit akses internet di Dubai International Airport (DXB)" target="_blank" rel="noopener"><i class="fab fa-stumbleupon fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="http://digg.com/submit?url=http://mabdh.github.io/pages/2015/09/16/2015-09-16-eksploit-akses-internet-di-dubai-international-airport-dxb/&title=Eksploit akses internet di Dubai International Airport (DXB)" target="_blank" rel="noopener"><i class="fab fa-digg fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="http://www.tumblr.com/share/link?url=http://mabdh.github.io/pages/2015/09/16/2015-09-16-eksploit-akses-internet-di-dubai-international-airport-dxb/&name=Eksploit akses internet di Dubai International Airport (DXB)&description=" target="_blank" rel="noopener"><i class="fab fa-tumblr fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="https://news.ycombinator.com/submitlink?u=http://mabdh.github.io/pages/2015/09/16/2015-09-16-eksploit-akses-internet-di-dubai-international-airport-dxb/&t=Eksploit akses internet di Dubai International Airport (DXB)" target="_blank" rel="noopener"><i class="fab fa-hacker-news fa-lg" aria-hidden="true"></i></a></li>
+</ul>
+
+    </div>
+
+    <div id="actions-footer">
+        <a id="menu" class="icon" href="#" onclick="$('#nav-footer').toggle();return false;"><i class="fas fa-bars fa-lg" aria-hidden="true"></i> Menu</a>
+        <a id="toc" class="icon" href="#" onclick="$('#toc-footer').toggle();return false;"><i class="fas fa-list fa-lg" aria-hidden="true"></i> TOC</a>
+        <a id="share" class="icon" href="#" onclick="$('#share-footer').toggle();return false;"><i class="fas fa-share-alt fa-lg" aria-hidden="true"></i> Share</a>
+        <a id="top" style="display:none" class="icon" href="#" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');"><i class="fas fa-chevron-up fa-lg" aria-hidden="true"></i> Top</a>
+    </div>
+
+  </div>
+</div>
+
+        
+        <footer id="footer">
+  <div class="footer-left">
+    Copyright &copy; 2019 mabdh
+  </div>
+  <div class="footer-right">
+    <nav>
+      <ul>
+         
+          <li><a href="/pages/">Home</a></li>
+         
+          <li><a href="http://mabdh.github.io/about">About</a></li>
+         
+          <li><a href="/pages/categories/Writings/">Writing</a></li>
+         
+          <li><a href="/pages/categories/Projects/">Projects</a></li>
+        
+      </ul>
+    </nav>
+  </div>
+</footer>
+
+    </div>
+    <!-- styles -->
+
+<link rel="stylesheet" href="/pages/lib/font-awesome/css/all.min.css">
+
+
+<link rel="stylesheet" href="/pages/lib/justified-gallery/css/justifiedGallery.min.css">
+
+
+    <!-- jquery -->
+
+<script src="/pages/lib/jquery/jquery.min.js"></script>
+
+
+<script src="/pages/lib/justified-gallery/js/jquery.justifiedGallery.min.js"></script>
+
+<!-- clipboard -->
+
+  
+<script src="/pages/lib/clipboard/clipboard.min.js"></script>
+
+  <script type="text/javascript">
+  $(function() {
+    // copy-btn HTML
+    var btn = "<span class=\"btn-copy tooltipped tooltipped-sw\" aria-label=\"Copy to clipboard!\">";
+    btn += '<i class="far fa-clone"></i>';
+    btn += '</span>'; 
+    // mount it!
+    $(".highlight table").before(btn);
+    var clip = new ClipboardJS('.btn-copy', {
+      text: function(trigger) {
+        return Array.from(trigger.nextElementSibling.querySelectorAll('.code')).reduce((str,it)=>str+it.innerText+'\n','')
+      }
+    });
+    clip.on('success', function(e) {
+      e.trigger.setAttribute('aria-label', "Copied!");
+      e.clearSelection();
+    })
+  })
+  </script>
+
+
+<script src="/pages/js/main.js"></script>
+
+<!-- search -->
+
+<!-- Google Analytics -->
+
+    <script type="text/javascript">
+        (function(i,s,o,g,r,a,m) {i['GoogleAnalyticsObject']=r;i[r]=i[r]||function() {
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+        ga('create', 'UA-90629247-2', 'auto');
+        ga('send', 'pageview');
+    </script>
+
+<!-- Baidu Analytics -->
+
+<!-- Disqus Comments -->
+
+    <script type="text/javascript">
+        var disqus_shortname = 'mabdh';
+
+        (function(){
+            var dsq = document.createElement('script');
+            dsq.type = 'text/javascript';
+            dsq.async = true;
+            dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        }());
+    </script>
+
+
+</body>
+</html>
