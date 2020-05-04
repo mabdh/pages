@@ -13,7 +13,7 @@ timezone: ''
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://mabdh.github.io/
+url: https://mabdh.netlify.app
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -108,3 +108,6 @@ deploy:
   #   - source/assets
   # ignore_hidden:
   #  - source/portfolio
+
+sitemap:
+    path: sitemap.xml
