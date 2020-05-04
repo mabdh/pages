@@ -6,7 +6,7 @@ categories:
 cover_index: /images/mot/index.jpg
 cover_detail: /images/mot/banner.jpg
 ---
-I implemented multiple object tracking using particle filter based on paper (M. D. Breitenstein, F. Reichlin, B. Leibe, E. Koller-Meier and L. Van Gool  *Online multiperson tracking-by-detection from a single, uncalibrated camera*,  IEEE Trans. Pattern Anal. Mach. Intell.,  vol. 33,  no. 9,  pp.1820 -1833 2011). I was using C++ and OpenCV and doing offline tracking to implement the code. Instead of using condensation function from OpenCV, I was implementing particle filter from scratch and trying to tackle occlusion problem.
+I implemented multiple object tracking using particle filter based on paper (M. D. Breitenstein, F. Reichlin, B. Leibe, E. Koller-Meier and L. Van Gool  *Online multiperson tracking-by-detection from a single, uncalibrated camera*,  IEEE Trans. Pattern Anal. Mach. Intell.,  vol. 33,  no. 9,  pp.1820 -1833 2011). <!-- more --> I was using C++ and OpenCV and doing offline tracking to implement the code. Instead of using condensation function from OpenCV, I was implementing particle filter from scratch and trying to tackle occlusion problem.
 
 
 <figure class="images-row">

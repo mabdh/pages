@@ -6,7 +6,7 @@ categories:
 cover_index: /images/theremin/index.jpg
 cover_detail: /images/banner_white.jpg
 ---
-"The theremin (/ˈθɛrəmɪn/[1] THERR-ə-min; originally known as the ætherphone/etherphone, thereminophone[2] or termenvox/thereminvox), is an early electronic musical instrument controlled without physical contact by the thereminist (performer). It is named after the Westernized name of its Russian inventor, Léon Theremin, who patented the device in 1928." - Wikipedia
+"The theremin (/ˈθɛrəmɪn/[1] THERR-ə-min; originally known as the ætherphone/etherphone, thereminophone[2] or termenvox/thereminvox), is an early electronic musical instrument controlled without physical contact by the thereminist (performer). <!-- more --> It is named after the Westernized name of its Russian inventor, Léon Theremin, who patented the device in 1928." - Wikipedia
 
 
 Creating an interactive web-based theremin with javascript, HTML 5, and web-audio API.

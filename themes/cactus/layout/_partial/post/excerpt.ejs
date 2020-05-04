@@ -1,0 +1,8 @@
+<br>
+<p class="post-excerpt">
+<%- post.excerpt %>
+</p>
+<% if(post.excerpt){ %>
+<p class="post-more-link">
+<a href="<%- url_for(post.path) %>#more"><%= theme.excerpt_link %></a>
+<% } %>

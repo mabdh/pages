@@ -7,7 +7,7 @@ cover_index: /images/asuran/index.jpg
 cover_detail: /images/asuran/banner.jpg
 ---
 
-Location-based insurance premium prediction implemented as android application. The app uses geofencing to locate the user. The insurance premium data for every location in a city will be various depends on its condition (e.g. the locations with higher risk will have higher premium). Users can register themselves in on-demand manner when they are approaching the location with high risk.
+Location-based insurance premium prediction implemented as android application. The app uses geofencing to locate the user. The insurance premium data for every location in a city will be various depends on its condition (e.g. the locations with higher risk will have higher premium). <!-- more -->Users can register themselves in on-demand manner when they are approaching the location with high risk.
 All locations are updated in near real-time.
 
 An MQTT back-end is used as a message broker to publish locations information and their premium that can be varied over time.

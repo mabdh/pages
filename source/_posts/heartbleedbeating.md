@@ -8,7 +8,7 @@ categories:
 
 
 A sketch of generative art using OpenFrameworks.
-
+<!-- more --> 
 <figure class="images-row">
 {% vimeo 120458988 %}
 </figure>

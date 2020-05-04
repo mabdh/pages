@@ -8,6 +8,7 @@ cover_detail: /images/solarflare/banner.jpg
 ---
 
 Experiment with lines using Processing.
+<!-- more --> 
 <figure class="images-row">
 {% vimeo 120459054 %}
 </figure>

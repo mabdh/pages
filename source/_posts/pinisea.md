@@ -6,7 +6,7 @@ categories:
 cover_index: /images/pinisea/index.jpg
 cover_detail: /images/pinisea/banner.jpg
 ---
-The green autonomous water vehicle to track the ocean. Mechanically inspired by "Wave Glider" and has the main purpose to track the fishing spot. It also can use to measure environment condition on the ocean (sea level, temperature, humidity, etc). This project is started since Intel IoT Roadshow Hackathon in Berlin.To track the fishing spot, we use sonar to scan the ground below sea surface. Using many sensors to measure the climate around this boat, we can tell user the condition of the sea. Fisherman simply knows whether it is a good day for fishing or to stay with the family.
+The green autonomous water vehicle to track the ocean. Mechanically inspired by "Wave Glider" and has the main purpose to track the fishing spot. It also can use to measure environment condition on the ocean (sea level, temperature, humidity, etc). This project is started since Intel IoT Roadshow Hackathon in Berlin. <!-- more --> To track the fishing spot, we use sonar to scan the ground below sea surface. Using many sensors to measure the climate around this boat, we can tell user the condition of the sea. Fisherman simply knows whether it is a good day for fishing or to stay with the family.
 
 <figure class="images-row">
 <img style="display: inline;" src="/images/pinisea/p2.jpg" width="300"> <img style="display: inline;" src="/images/pinisea/p3.jpg" width="300">

@@ -13,7 +13,7 @@ photos:
   - /images/copymachine/cm5.png
   - /images/copymachine/cm6.png
 ---
-Redesigning a copy machine and make it easy to use. This was the project of Designing Interactive Systems 1 course.  I contributed in the user studies, idea generation process, and I created the 3D model using Autocad 123D Design.
+Redesigning a copy machine and make it easy to use. This was the project of Designing Interactive Systems 1 course.  I contributed in the user studies, idea generation process, and I created the 3D model using Autocad 123D Design. <!-- more --> 
 
 <hr>
 - Date: November 2014

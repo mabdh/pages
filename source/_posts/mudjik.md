@@ -7,7 +7,7 @@ cover_index: /images/mudjik/index.jpg
 cover_detail: /images/mudjik/banner.jpg
 ---
 
-Generating spotify playlist based on an image's mood. Implemented as Web application using Node.js and iOS application and using Spotify API.
+Generating spotify playlist based on an image's mood. Implemented as Web application using Node.js and iOS application and using Spotify API. <!-- more --> 
 
 <figure>
 <img src="/images/mudjik/mudjik_presentation.png" width="500">

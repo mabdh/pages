@@ -8,7 +8,7 @@ cover_detail: /images/lightsurv/banner.jpg
 
 ---
 
-A low-cost surveillance system integrated with mobile smartphone and alert system with motion detection. Top three application in hackathon start-up asia jakarta 2013. Using android smartphone, we built the prototype integrated with webcam and server. We use real time streaming protocol to enhance the speed of surveillance video. Users can see what is going on in their home or office only using the application and also they will be notified if there is a suspicious movement that is captured by camera.
+A low-cost surveillance system integrated with mobile smartphone and alert system with motion detection. Top three application in hackathon start-up asia jakarta 2013. Using android smartphone, we built the prototype integrated with webcam and server. We use real time streaming protocol to enhance the speed of surveillance video. <!-- more -->Users can see what is going on in their home or office only using the application and also they will be notified if there is a suspicious movement that is captured by camera.
 
 <figure>
 <img src="/images/lightsurv/ls1.jpg" width="300">

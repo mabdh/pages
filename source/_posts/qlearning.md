@@ -1,5 +1,6 @@
 ---
 title: Reinforcement Learning - Q-Learning
+description: Simulation in Grid World using Q-Learning
 date: 2019-01-20 14:22:46
 categories: 
 - Projects
@@ -7,9 +8,7 @@ cover_index: /images/qlearning/index.jpg
 cover_detail: /images/qlearning/index.jpg
 ---
 
-Simulation in Grid World using Q-Learning
-
-A snowman lives in a dangerous place. Its home is a tent. However, there are many locations with high intensity radiation. The snowman is going home but it does not know yet which lane are the safest. Our algorithm will make snowman decide the most optimal (safest) trajectory to the home (a tent). 
+A snowman lives in a dangerous place. Its home is a tent. However, there are many locations with high intensity radiation. The snowman is going home but it does not know yet which lane are the safest. The algorithm will make snowman decide the most optimal (safest) trajectory to the home (a tent). <!-- more --> 
 
 There are several parameters that can be modified in this simulation.
 - Grid Size (Integer)
