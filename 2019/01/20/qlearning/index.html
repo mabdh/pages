@@ -6,18 +6,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="HandheldFriendly" content="True">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
-    <meta name="description" content="Simulation in Grid World using Q-Learning A snowman lives in a dangerous place. Its home is a tent. However, there are many locations with high intensity radiation. The snowman is going home but it do">
+    <meta name="description" content="Simulation in Grid World using Q-Learning">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Reinforcement Learning - Q-Learning">
-<meta property="og:url" content="http://mabdh.github.io/pages/2019/01/20/qlearning/index.html">
-<meta property="og:site_name" content="🚀 mabdh-pages">
-<meta property="og:description" content="Simulation in Grid World using Q-Learning A snowman lives in a dangerous place. Its home is a tent. However, there are many locations with high intensity radiation. The snowman is going home but it do">
+<meta property="og:url" content="http://mabdh.github.io/2019/01/20/qlearning/index.html">
+<meta property="og:site_name" content="🚀 mabdh">
+<meta property="og:description" content="Simulation in Grid World using Q-Learning">
 <meta property="og:locale" content="en_US">
 <meta property="og:image" content="http://mabdh.github.io/images/asuran/2.png">
 <meta property="og:image" content="http://mabdh.github.io/images/asuran/3.png">
 <meta property="og:image" content="http://mabdh.github.io/images/asuran/6.png">
 <meta property="article:published_time" content="2019-01-20T07:22:46.000Z">
-<meta property="article:modified_time" content="2019-12-25T15:30:23.636Z">
+<meta property="article:modified_time" content="2020-05-03T23:37:10.194Z">
 <meta property="article:author" content="mabdh">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:image" content="http://mabdh.github.io/images/asuran/2.png">
@@ -25,17 +25,17 @@
     
         
           
-              <link rel="shortcut icon" href="/pages/images/favicon.ico">
+              <link rel="shortcut icon" href="/images/favicon.ico">
           
         
         
           
-            <link rel="icon" type="image/png" href="/pages/images/logo.png" sizes="192x192">
+            <link rel="icon" type="image/png" href="/images/logo.png" sizes="192x192">
           
         
         
           
-            <link rel="apple-touch-icon" sizes="180x180" href="/pages/images/logo.png">
+            <link rel="apple-touch-icon" sizes="180x180" href="/images/logo.png">
           
         
     
@@ -43,12 +43,12 @@
     <title>Reinforcement Learning - Q-Learning</title>
     <!-- styles -->
     
-<link rel="stylesheet" href="/pages/css/style.css">
+<link rel="stylesheet" href="/css/style.css">
 
     <!-- persian styles -->
     
       
-<link rel="stylesheet" href="/pages/css/rtl.css">
+<link rel="stylesheet" href="/css/rtl.css">
 
     
     <!-- rss -->
@@ -66,15 +66,13 @@
     <span id="nav">
       <ul>
          
-          <li><a href="http://mabdh.github.io/">Home</a></li>
+          <li><a href="/">Home</a></li>
          
-          <li><a href="http://mabdh.github.io/pages">Pages</a></li>
+          <li><a href="/about/">About</a></li>
          
-          <li><a href="http://mabdh.github.io/about">About</a></li>
+          <li><a href="/categories/Writings/">Writing</a></li>
          
-          <li><a href="/pages/categories/Writings/">Writing</a></li>
-         
-          <li><a href="/pages/categories/Projects/">Projects</a></li>
+          <li><a href="/categories/Projects/">Projects</a></li>
         
       </ul>
     </span>
@@ -82,10 +80,10 @@
     <span id="actions">
       <ul>
         
-        <li><a class="icon" href="/pages/2019/12/25/hopfield/"><i class="fas fa-chevron-left" aria-hidden="true" onmouseover="$('#i-prev').toggle();" onmouseout="$('#i-prev').toggle();"></i></a></li>
+        <li><a class="icon" href="/2019/12/25/hopfield/"><i class="fas fa-chevron-left" aria-hidden="true" onmouseover="$('#i-prev').toggle();" onmouseout="$('#i-prev').toggle();"></i></a></li>
         
         
-        <li><a class="icon" href="/pages/2016/11/13/asuran/"><i class="fas fa-chevron-right" aria-hidden="true" onmouseover="$('#i-next').toggle();" onmouseout="$('#i-next').toggle();"></i></a></li>
+        <li><a class="icon" href="/2016/11/13/asuran/"><i class="fas fa-chevron-right" aria-hidden="true" onmouseover="$('#i-next').toggle();" onmouseout="$('#i-next').toggle();"></i></a></li>
         
         <li><a class="icon" href="#" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');"><i class="fas fa-chevron-up" aria-hidden="true" onmouseover="$('#i-top').toggle();" onmouseout="$('#i-top').toggle();"></i></a></li>
         <li><a class="icon" href="#"><i class="fas fa-share-alt" aria-hidden="true" onmouseover="$('#i-share').toggle();" onmouseout="$('#i-share').toggle();" onclick="$('#share').toggle();return false;"></i></a></li>
@@ -98,17 +96,17 @@
     <br/>
     <div id="share" style="display: none">
       <ul>
-  <li><a class="icon" href="http://www.facebook.com/sharer.php?u=http://mabdh.github.io/pages/2019/01/20/qlearning/" target="_blank" rel="noopener"><i class="fab fa-facebook " aria-hidden="true"></i></a></li>
-  <li><a class="icon" href="https://twitter.com/share?url=http://mabdh.github.io/pages/2019/01/20/qlearning/&text=Reinforcement Learning - Q-Learning" target="_blank" rel="noopener"><i class="fab fa-twitter " aria-hidden="true"></i></a></li>
-  <li><a class="icon" href="http://www.linkedin.com/shareArticle?url=http://mabdh.github.io/pages/2019/01/20/qlearning/&title=Reinforcement Learning - Q-Learning" target="_blank" rel="noopener"><i class="fab fa-linkedin " aria-hidden="true"></i></a></li>
-  <li><a class="icon" href="https://pinterest.com/pin/create/bookmarklet/?url=http://mabdh.github.io/pages/2019/01/20/qlearning/&is_video=false&description=Reinforcement Learning - Q-Learning" target="_blank" rel="noopener"><i class="fab fa-pinterest " aria-hidden="true"></i></a></li>
-  <li><a class="icon" href="mailto:?subject=Reinforcement Learning - Q-Learning&body=Check out this article: http://mabdh.github.io/pages/2019/01/20/qlearning/"><i class="fas fa-envelope " aria-hidden="true"></i></a></li>
-  <li><a class="icon" href="https://getpocket.com/save?url=http://mabdh.github.io/pages/2019/01/20/qlearning/&title=Reinforcement Learning - Q-Learning" target="_blank" rel="noopener"><i class="fab fa-get-pocket " aria-hidden="true"></i></a></li>
-  <li><a class="icon" href="http://reddit.com/submit?url=http://mabdh.github.io/pages/2019/01/20/qlearning/&title=Reinforcement Learning - Q-Learning" target="_blank" rel="noopener"><i class="fab fa-reddit " aria-hidden="true"></i></a></li>
-  <li><a class="icon" href="http://www.stumbleupon.com/submit?url=http://mabdh.github.io/pages/2019/01/20/qlearning/&title=Reinforcement Learning - Q-Learning" target="_blank" rel="noopener"><i class="fab fa-stumbleupon " aria-hidden="true"></i></a></li>
-  <li><a class="icon" href="http://digg.com/submit?url=http://mabdh.github.io/pages/2019/01/20/qlearning/&title=Reinforcement Learning - Q-Learning" target="_blank" rel="noopener"><i class="fab fa-digg " aria-hidden="true"></i></a></li>
-  <li><a class="icon" href="http://www.tumblr.com/share/link?url=http://mabdh.github.io/pages/2019/01/20/qlearning/&name=Reinforcement Learning - Q-Learning&description=" target="_blank" rel="noopener"><i class="fab fa-tumblr " aria-hidden="true"></i></a></li>
-  <li><a class="icon" href="https://news.ycombinator.com/submitlink?u=http://mabdh.github.io/pages/2019/01/20/qlearning/&t=Reinforcement Learning - Q-Learning" target="_blank" rel="noopener"><i class="fab fa-hacker-news " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="http://www.facebook.com/sharer.php?u=http://mabdh.github.io/2019/01/20/qlearning/" target="_blank" rel="noopener"><i class="fab fa-facebook " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="https://twitter.com/share?url=http://mabdh.github.io/2019/01/20/qlearning/&text=Reinforcement Learning - Q-Learning" target="_blank" rel="noopener"><i class="fab fa-twitter " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="http://www.linkedin.com/shareArticle?url=http://mabdh.github.io/2019/01/20/qlearning/&title=Reinforcement Learning - Q-Learning" target="_blank" rel="noopener"><i class="fab fa-linkedin " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="https://pinterest.com/pin/create/bookmarklet/?url=http://mabdh.github.io/2019/01/20/qlearning/&is_video=false&description=Reinforcement Learning - Q-Learning" target="_blank" rel="noopener"><i class="fab fa-pinterest " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="mailto:?subject=Reinforcement Learning - Q-Learning&body=Check out this article: http://mabdh.github.io/2019/01/20/qlearning/"><i class="fas fa-envelope " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="https://getpocket.com/save?url=http://mabdh.github.io/2019/01/20/qlearning/&title=Reinforcement Learning - Q-Learning" target="_blank" rel="noopener"><i class="fab fa-get-pocket " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="http://reddit.com/submit?url=http://mabdh.github.io/2019/01/20/qlearning/&title=Reinforcement Learning - Q-Learning" target="_blank" rel="noopener"><i class="fab fa-reddit " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="http://www.stumbleupon.com/submit?url=http://mabdh.github.io/2019/01/20/qlearning/&title=Reinforcement Learning - Q-Learning" target="_blank" rel="noopener"><i class="fab fa-stumbleupon " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="http://digg.com/submit?url=http://mabdh.github.io/2019/01/20/qlearning/&title=Reinforcement Learning - Q-Learning" target="_blank" rel="noopener"><i class="fab fa-digg " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="http://www.tumblr.com/share/link?url=http://mabdh.github.io/2019/01/20/qlearning/&name=Reinforcement Learning - Q-Learning&description=&lt;p&gt;A snowman lives in a dangerous place. Its home is a tent. However, there are many locations with high intensity radiation. The snowman is going home but it does not know yet which lane are the safest. The algorithm will make snowman decide the most optimal (safest) trajectory to the home (a tent)." target="_blank" rel="noopener"><i class="fab fa-tumblr " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="https://news.ycombinator.com/submitlink?u=http://mabdh.github.io/2019/01/20/qlearning/&t=Reinforcement Learning - Q-Learning" target="_blank" rel="noopener"><i class="fab fa-hacker-news " aria-hidden="true"></i></a></li>
 </ul>
 
     </div>
@@ -124,7 +122,7 @@
         <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
   <header>
     
-    <h1 class="posttitle" itemprop="name headline">
+    <h1 class="post-title" itemprop="name headline">
         Reinforcement Learning - Q-Learning
     </h1>
 
@@ -132,7 +130,7 @@
 
     <div class="meta">
       <span class="author" itemprop="author" itemscope itemtype="http://schema.org/Person">
-        <span itemprop="name">🚀 mabdh-pages</span>
+        <span itemprop="name">🚀 mabdh</span>
       </span>
       
     <div class="postdate">
@@ -146,7 +144,7 @@
       
     <div class="article-category">
         <i class="fas fa-archive"></i>
-        <a class="category-link" href="/pages/categories/Projects/">Projects</a>
+        <a class="category-link" href="/categories/Projects/">Projects</a>
     </div>
 
 
@@ -157,8 +155,7 @@
   
 
   <div class="content" itemprop="articleBody">
-    <p>Simulation in Grid World using Q-Learning</p>
-<p>A snowman lives in a dangerous place. Its home is a tent. However, there are many locations with high intensity radiation. The snowman is going home but it does not know yet which lane are the safest. Our algorithm will make snowman decide the most optimal (safest) trajectory to the home (a tent). </p>
+    <p>A snowman lives in a dangerous place. Its home is a tent. However, there are many locations with high intensity radiation. The snowman is going home but it does not know yet which lane are the safest. The algorithm will make snowman decide the most optimal (safest) trajectory to the home (a tent). <a id="more"></a> </p>
 <p>There are several parameters that can be modified in this simulation.</p>
 <ul>
 <li>Grid Size (Integer)</li>
@@ -167,7 +164,7 @@
 <li>Number of Obstacles per Row (Integer) - At most n obstacles per row. Will be randomized.</li>
 <li>Number of episodes (Integer) - For training purpose. The more episode, the more chance to learn.</li>
 </ul>
-<p>Visit the site here <a href="http://mabdh.github.io/reinforcement-learning-q-learning/" target="_blank" rel="noopener">http://mabdh.github.io/reinforcement-learning-q-learning/</a></p>
+<p>Visit the site here <a href="http://mabdh.github.io/reinforcement-learning-q-learning/">http://mabdh.github.io/reinforcement-learning-q-learning/</a></p>
 <!-- <figure class="images-row">
 <img style="display: inline;" src="/images/asuran/2.png" width="200"> <img style="display: inline;" src="/images/asuran/3.png" width="200"> <img style="display: inline;" src="/images/asuran/6.png" width="200">
 <figcaption>
@@ -196,15 +193,13 @@ Android application Screenshots: 1. Login screen. 2. Initialization screen shows
     <div id="nav-footer" style="display: none">
       <ul>
          
-          <li><a href="http://mabdh.github.io/">Home</a></li>
+          <li><a href="/">Home</a></li>
          
-          <li><a href="http://mabdh.github.io/pages">Pages</a></li>
+          <li><a href="/about/">About</a></li>
          
-          <li><a href="http://mabdh.github.io/about">About</a></li>
+          <li><a href="/categories/Writings/">Writing</a></li>
          
-          <li><a href="/pages/categories/Writings/">Writing</a></li>
-         
-          <li><a href="/pages/categories/Projects/">Projects</a></li>
+          <li><a href="/categories/Projects/">Projects</a></li>
         
       </ul>
     </div>
@@ -215,17 +210,17 @@ Android application Screenshots: 1. Login screen. 2. Initialization screen shows
 
     <div id="share-footer" style="display: none">
       <ul>
-  <li><a class="icon" href="http://www.facebook.com/sharer.php?u=http://mabdh.github.io/pages/2019/01/20/qlearning/" target="_blank" rel="noopener"><i class="fab fa-facebook fa-lg" aria-hidden="true"></i></a></li>
-  <li><a class="icon" href="https://twitter.com/share?url=http://mabdh.github.io/pages/2019/01/20/qlearning/&text=Reinforcement Learning - Q-Learning" target="_blank" rel="noopener"><i class="fab fa-twitter fa-lg" aria-hidden="true"></i></a></li>
-  <li><a class="icon" href="http://www.linkedin.com/shareArticle?url=http://mabdh.github.io/pages/2019/01/20/qlearning/&title=Reinforcement Learning - Q-Learning" target="_blank" rel="noopener"><i class="fab fa-linkedin fa-lg" aria-hidden="true"></i></a></li>
-  <li><a class="icon" href="https://pinterest.com/pin/create/bookmarklet/?url=http://mabdh.github.io/pages/2019/01/20/qlearning/&is_video=false&description=Reinforcement Learning - Q-Learning" target="_blank" rel="noopener"><i class="fab fa-pinterest fa-lg" aria-hidden="true"></i></a></li>
-  <li><a class="icon" href="mailto:?subject=Reinforcement Learning - Q-Learning&body=Check out this article: http://mabdh.github.io/pages/2019/01/20/qlearning/"><i class="fas fa-envelope fa-lg" aria-hidden="true"></i></a></li>
-  <li><a class="icon" href="https://getpocket.com/save?url=http://mabdh.github.io/pages/2019/01/20/qlearning/&title=Reinforcement Learning - Q-Learning" target="_blank" rel="noopener"><i class="fab fa-get-pocket fa-lg" aria-hidden="true"></i></a></li>
-  <li><a class="icon" href="http://reddit.com/submit?url=http://mabdh.github.io/pages/2019/01/20/qlearning/&title=Reinforcement Learning - Q-Learning" target="_blank" rel="noopener"><i class="fab fa-reddit fa-lg" aria-hidden="true"></i></a></li>
-  <li><a class="icon" href="http://www.stumbleupon.com/submit?url=http://mabdh.github.io/pages/2019/01/20/qlearning/&title=Reinforcement Learning - Q-Learning" target="_blank" rel="noopener"><i class="fab fa-stumbleupon fa-lg" aria-hidden="true"></i></a></li>
-  <li><a class="icon" href="http://digg.com/submit?url=http://mabdh.github.io/pages/2019/01/20/qlearning/&title=Reinforcement Learning - Q-Learning" target="_blank" rel="noopener"><i class="fab fa-digg fa-lg" aria-hidden="true"></i></a></li>
-  <li><a class="icon" href="http://www.tumblr.com/share/link?url=http://mabdh.github.io/pages/2019/01/20/qlearning/&name=Reinforcement Learning - Q-Learning&description=" target="_blank" rel="noopener"><i class="fab fa-tumblr fa-lg" aria-hidden="true"></i></a></li>
-  <li><a class="icon" href="https://news.ycombinator.com/submitlink?u=http://mabdh.github.io/pages/2019/01/20/qlearning/&t=Reinforcement Learning - Q-Learning" target="_blank" rel="noopener"><i class="fab fa-hacker-news fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="http://www.facebook.com/sharer.php?u=http://mabdh.github.io/2019/01/20/qlearning/" target="_blank" rel="noopener"><i class="fab fa-facebook fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="https://twitter.com/share?url=http://mabdh.github.io/2019/01/20/qlearning/&text=Reinforcement Learning - Q-Learning" target="_blank" rel="noopener"><i class="fab fa-twitter fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="http://www.linkedin.com/shareArticle?url=http://mabdh.github.io/2019/01/20/qlearning/&title=Reinforcement Learning - Q-Learning" target="_blank" rel="noopener"><i class="fab fa-linkedin fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="https://pinterest.com/pin/create/bookmarklet/?url=http://mabdh.github.io/2019/01/20/qlearning/&is_video=false&description=Reinforcement Learning - Q-Learning" target="_blank" rel="noopener"><i class="fab fa-pinterest fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="mailto:?subject=Reinforcement Learning - Q-Learning&body=Check out this article: http://mabdh.github.io/2019/01/20/qlearning/"><i class="fas fa-envelope fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="https://getpocket.com/save?url=http://mabdh.github.io/2019/01/20/qlearning/&title=Reinforcement Learning - Q-Learning" target="_blank" rel="noopener"><i class="fab fa-get-pocket fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="http://reddit.com/submit?url=http://mabdh.github.io/2019/01/20/qlearning/&title=Reinforcement Learning - Q-Learning" target="_blank" rel="noopener"><i class="fab fa-reddit fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="http://www.stumbleupon.com/submit?url=http://mabdh.github.io/2019/01/20/qlearning/&title=Reinforcement Learning - Q-Learning" target="_blank" rel="noopener"><i class="fab fa-stumbleupon fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="http://digg.com/submit?url=http://mabdh.github.io/2019/01/20/qlearning/&title=Reinforcement Learning - Q-Learning" target="_blank" rel="noopener"><i class="fab fa-digg fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="http://www.tumblr.com/share/link?url=http://mabdh.github.io/2019/01/20/qlearning/&name=Reinforcement Learning - Q-Learning&description=&lt;p&gt;A snowman lives in a dangerous place. Its home is a tent. However, there are many locations with high intensity radiation. The snowman is going home but it does not know yet which lane are the safest. The algorithm will make snowman decide the most optimal (safest) trajectory to the home (a tent)." target="_blank" rel="noopener"><i class="fab fa-tumblr fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="https://news.ycombinator.com/submitlink?u=http://mabdh.github.io/2019/01/20/qlearning/&t=Reinforcement Learning - Q-Learning" target="_blank" rel="noopener"><i class="fab fa-hacker-news fa-lg" aria-hidden="true"></i></a></li>
 </ul>
 
     </div>
@@ -249,15 +244,13 @@ Android application Screenshots: 1. Login screen. 2. Initialization screen shows
     <nav>
       <ul>
          
-          <li><a href="http://mabdh.github.io/">Home</a></li>
+          <li><a href="/">Home</a></li>
          
-          <li><a href="http://mabdh.github.io/pages">Pages</a></li>
+          <li><a href="/about/">About</a></li>
          
-          <li><a href="http://mabdh.github.io/about">About</a></li>
+          <li><a href="/categories/Writings/">Writing</a></li>
          
-          <li><a href="/pages/categories/Writings/">Writing</a></li>
-         
-          <li><a href="/pages/categories/Projects/">Projects</a></li>
+          <li><a href="/categories/Projects/">Projects</a></li>
         
       </ul>
     </nav>
@@ -267,23 +260,23 @@ Android application Screenshots: 1. Login screen. 2. Initialization screen shows
     </div>
     <!-- styles -->
 
-<link rel="stylesheet" href="/pages/lib/font-awesome/css/all.min.css">
+<link rel="stylesheet" href="/lib/font-awesome/css/all.min.css">
 
 
-<link rel="stylesheet" href="/pages/lib/justified-gallery/css/justifiedGallery.min.css">
+<link rel="stylesheet" href="/lib/justified-gallery/css/justifiedGallery.min.css">
 
 
     <!-- jquery -->
 
-<script src="/pages/lib/jquery/jquery.min.js"></script>
+<script src="/lib/jquery/jquery.min.js"></script>
 
 
-<script src="/pages/lib/justified-gallery/js/jquery.justifiedGallery.min.js"></script>
+<script src="/lib/justified-gallery/js/jquery.justifiedGallery.min.js"></script>
 
 <!-- clipboard -->
 
   
-<script src="/pages/lib/clipboard/clipboard.min.js"></script>
+<script src="/lib/clipboard/clipboard.min.js"></script>
 
   <script type="text/javascript">
   $(function() {
@@ -306,7 +299,7 @@ Android application Screenshots: 1. Login screen. 2. Initialization screen shows
   </script>
 
 
-<script src="/pages/js/main.js"></script>
+<script src="/js/main.js"></script>
 
 <!-- search -->
 
