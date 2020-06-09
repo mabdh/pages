@@ -17,7 +17,7 @@ There are several parameters that can be modified in this simulation.
 - Number of Obstacles per Row (Integer) - At most n obstacles per row. Will be randomized.
 - Number of episodes (Integer) - For training purpose. The more episode, the more chance to learn.
 
-Visit the site here http://mabdh.github.io/reinforcement-learning-q-learning/
+Visit the site here https://reinforcement-learning-q-learning.mabdh.now.sh/
 
 <!-- <figure class="images-row">
 <img style="display: inline;" src="/images/asuran/2.png" width="200"> <img style="display: inline;" src="/images/asuran/3.png" width="200"> <img style="display: inline;" src="/images/asuran/6.png" width="200">
