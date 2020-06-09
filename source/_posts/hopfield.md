@@ -24,4 +24,4 @@ There are two steps in this application, train and predict.
 - Or you can use the preset image + noise provided
 
 
-Visit the site here http://mabdh.github.io/reinforcement-learning-q-learning/
+Visit the site here https://mabdh.github.io/hopfield-network/
